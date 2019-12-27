@@ -11,7 +11,7 @@ class Quiz extends Component {
     render() {
         return (
             <div>
-                <div className={QuizQuestion}>
+                <div className="QuizQuestion">
                     {quizData.quiz_questions[0].instruction_text}
                 </div>
             </div>
@@ -19,4 +19,4 @@ class Quiz extends Component {
     }
 }
 
-export default Quiz
+export default Quiz;
